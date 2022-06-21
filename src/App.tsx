@@ -1,13 +1,13 @@
 import React from 'react';
-
+import Form from './components/Form';
+import List from './components/List';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Hello world!
-        </p>
+        <Form />
+        <List />
       </header>
     </div>
   );
